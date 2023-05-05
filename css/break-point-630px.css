@@ -6,11 +6,27 @@
   }
 
   .cabecalho nav {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
 
   .cabecalho a {
     font-size: 2em;
+  }
+
+  .rodape h2 {
+    font-size: 2rem;
+  }
+
+  .rodape nav img {
+    width: 4rem;
+  }
+
+  .rodape nav a {
+    padding: 0.5rem 0.5rem 0 0.5rem;
+  }
+
+  .form {
+    padding: 0 0.5rem 0.5rem 0.5rem;
   }
 }
 
