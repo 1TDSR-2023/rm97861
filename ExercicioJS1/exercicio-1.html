@@ -4,25 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./exercicio1.css" />
     <script src="./exercicio.js" defer></script>
     <title>Exercicio-1</title>
   </head>
   <body>
-    <button id="botao">CLICK</button>
+    <div id="div-bg">
+      <button id="botao">Mudar cor do display</button>
+    </div>
 
-    <div class="form">
-      <form action="index.html" method="GET" onsubmit="return false">
-        <fieldset>
-          <legend>Nome</legend>
-          <div>
-            <label for="idNome">Nome</label>
-            <input type="text" name="txtNm" id="idNome" placeholder="Nome" />
-          </div>
-          <div>
-            <input type="submit" value="Enviar" />
-          </div>
-        </fieldset>
-      </form>
+    <div>
+      <button id="btn-hide-click">Ocultar CLICK</button>
+    </div>
+
+    <div>
+      <label for="idTxt">Item</label>
+      <input type="text" name="txtNome" id="idTxt" />
+      <button type="submit" id="btn-list">Adicionar item</button>
+    </div>
+
+    <div>
+      <ul id="idList"></ul>
+    </div>
+
+    <img id="img" src="../img/lobo1.jpg" width="300" height="200" />
+    <br /><br />
+    <button id="img-btn">Trocar imagem</button>
+
+    <div>
+      <button id="btn-title">Adicionar Paragrafo</button>
+      <p id="idTitle"></p>
     </div>
   </body>
 </html>
